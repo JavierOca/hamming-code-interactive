@@ -1,5 +1,7 @@
 # Hamming Code Encoder and Decoder
 
+Live demo: https://JavierOca.github.io/hamming-code-interactive/
+
 Web application that encodes and decodes binary strings using Hamming Code.
 
 ## Description
@@ -26,3 +28,4 @@ Open `index.html` in any modern web browser.
 
 ## Author
 Javier Ocaranza
+
