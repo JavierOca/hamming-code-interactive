@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Codigo Hamming</title>
+</head>
+<body>
+    <h1>Codificador Hamming Paso a Paso</h1>
+    <label for="data-input">Ingresar Mensaje Enviado (Bits): </label>
+    <input type="text" id="data-input" placeholder="Ingresar Cadena Binaria">
+    <button onclick="generateHammingMatrix()">Generar Matriz</button>
+
+    <div id="title-description">
+        <h2 id="table-title">Matriz del Codificador Hamming</h2>
+        <div id="color-descriptions-encode" style="display: none;"></div>
+    </div>
+    <table id="hamming-table"></table>
+
+    <div id="output-text-encode"></div>
+
+    <h1>Decodificador Hamming Paso a Paso</h1>
+    <label for="received-input">Ingresar Mensaje Recibido (Bits): </label>
+    <input type="text" id="received-input" placeholder="Ingresar Cadena Binaria">
+    <button onclick="decodeHammingCode()">Generar Matriz</button>
+    
+    <div id="title-description">
+        <h2 id="table-title">Matriz del Decodificador Hamming</h2>
+        <div id="color-descriptions-decode" style="display: none;"></div>
+    </div>
+    <table id="decoded-hamming-table"></table>
+
+    <div id="output-text-decode"></div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
